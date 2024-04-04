@@ -1,3 +1,3 @@
-from us_visa_prediction.components import data_ingestion
+from us_visa_prediction.logger import logging
 
-data_ingestion.mmain()
+logging.info("This is Logging test")
