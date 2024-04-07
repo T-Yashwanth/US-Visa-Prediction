@@ -1,8 +1,7 @@
-from us_visa_prediction.logger import logging
-from us_visa_prediction.exception import USvisaException
 import sys
+from us_visa_prediction.pipeline.train_pipeline import TrainPipeline
+from us_visa_prediction.exception import USvisaException
 
-try:
-    a = (1/0)
-except Exception as e:
-    logging.info(e)
+pipline = TrainPipeline()
+
+pipline.run_pipeline()
