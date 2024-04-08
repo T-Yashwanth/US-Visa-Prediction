@@ -10,7 +10,7 @@ wrote logging
 
 wrote exceptions
 
-frist run tremplet file then write requirements and setup files and run them our local package is created then write logging and exceptions and write a mongodb connection in configuration
+frist run tremplet file then write requirements and setup files and run them our local package is created then write logging and exceptions and write a mongodb connection in configuration next we have to write data ingestion and we have to validate the data then find the data drift using evidently(its a package) next we have to do next data transformation was done 
 
 ## Work flow
 1. constant    #contains variable
