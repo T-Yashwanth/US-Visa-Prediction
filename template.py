@@ -35,7 +35,7 @@ list_of_folders = [
     ".dockerignore",
     "demo.py",
     "config/model.yaml",
-    "config/schema.yamal"
+    "config/schema.yaml"
 ]
 
 for filepath in list_of_folders:
