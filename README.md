@@ -25,7 +25,12 @@ for mongodb use the git bash
 
 ```bash
 export MONGODB_URL="mongodb+srv://<username>:<password>...."
+
+export AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
+ 
+export AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
 ```
+
 
 
 
@@ -35,4 +40,8 @@ if we detect we have to use distribution techniques to distribute evenly, mostly
 ### tools we are using
 1. MongoDB to store the data
 2. evidently to monitor the data drift
-3. 
+3. model Trainer
+4. model evaluater
+5. model pusher
+6. prediction pipline and using app
+7. Deployment

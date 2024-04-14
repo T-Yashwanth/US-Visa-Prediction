@@ -5,6 +5,8 @@ project_name = "us_visa_prediction"
 
 list_of_folders = [
     f"{project_name}/__init__.py",
+    f"{project_name}/cloud_storage/__init__.py",
+    f"{project_name}/cloud_storage/aws_storage.py",
     f"{project_name}/components/__init__.py",
     f"{project_name}/components/data_ingestion.py",
     f"{project_name}/components/data_transformation.py",
@@ -14,13 +16,15 @@ list_of_folders = [
     f"{project_name}/components/model_pusher.py",
     f"{project_name}/configuration/__init__.py",
     f"{project_name}/configuration/mongo_db_connection.py",
-    f"{project_name}/configuration/s3.operations.py", # need to be removed or renamed
+    f"{project_name}/configuration/aws_connection.py", 
     f"{project_name}/data_access/__init__.py",
     f"{project_name}/data_access/usvisa_data.py",
     f"{project_name}/constant/__init__.py",
     f"{project_name}/entity/__init__.py",
     f"{project_name}/entity/artifact_entity.py",
     f"{project_name}/entity/config_entity.py",
+    f"{project_name}/entity/estimator.py",
+    f"{project_name}/entity/s3_estimator.py",
     f"{project_name}/exception/__init__.py",
     f"{project_name}/logger/__init__.py",
     f"{project_name}/pipeline/__init__.py",
