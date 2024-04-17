@@ -1,0 +1,11 @@
+artifact
+log
+notebook
+us_visa_prediction.egg-info
+.gitignore
+template.py
+LICENSE
+README.md
+demo.py
+env
+venv
